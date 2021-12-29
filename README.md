@@ -1,2 +1,2 @@
-# miss_roberta_wilde
-Metaphor Identification Using Dictionary Definitions
+# MIss_RoBERTa_WiLDe
+Metaphor Identification with Lexical Definitions
