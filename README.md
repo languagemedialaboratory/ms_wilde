@@ -3,7 +3,7 @@ Metaphor Identification using Masked Language Model with Wiktionary Lexical Defi
 
 The main part of the code available in this repository was created by the authors of MelBERT[1] and originally comes from https://github.com/jin530/MelBERT . 
 
-The introduced modifications allow for using definitions of the target words instead of the target words themselves. They also change the way of producing the sentence vector representation which now comes from the mean value of the component token vectors instead of [CLS] special token.  
+The introduced modifications allow for using definitions of the target words instead of the target words themselves. They also change the way the sentence vector representation is produced - it now comes from the mean value of the component token vectors instead of [CLS] special token.  
 
 We perform 5 trials for every experiment; each score published in the paper is the average of the scores yielded in these 5 trials. We always use the same set of random seeds: 1, 2, 3, 4 and 5. The results published in the paper were achieved using Tesla P100-PCIE-16GB GPU.
 
