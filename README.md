@@ -12,7 +12,7 @@ The main part of the code available in the repository was created by the authors
 
 The introduced modifications allow for using definitions of the target words instead of the target words themselves. They also change the way the sentence vector representation is produced - it now comes from the mean value of the component token vectors instead of [CLS] special token.  
 
-The datasets used in the experiments originally come from https://github.com/jin530/MelBERT/blob/main and are enriched with the Wiktionary definitions for the target words. All of the datasets used in the experiments are available in the _data_ directory. 
+The datasets used in the experiments originally come from https://drive.google.com/file/d/1738aqFObjfcOg2O7knrELmUHulNhoqRz/view?usp=sharing and are enriched with the Wiktionary definitions for the target words. All of the datasets used in the experiments are available in the _data_ directory. 
 
 Before performing the experiment, one should set the path to the dataset (e.g. data_dir = ./../data/vua-seq) as well as specify the random seed (e.g. seed = 4) in main_config.cfg file. The experiment can be initialized from the command line with the "python main.py" command.
 
