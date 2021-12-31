@@ -24,9 +24,11 @@ We perform 5 trials for every experiment; each score published in the paper is t
 
 In order to reproduce the results published in the paper one has to use the same GPU as well as the same set of random seeds. 
 
+ㅤㅤ
 
+ㅤㅤ
 
-
+ㅤㅤ
 
 
 [1] Choi, M., Lee, S., Choi, E., Park, H., Lee, J., Lee, D., & Lee, J. (2021). MelBERT: metaphor detection via contextualized late interaction using metaphorical identification theories. arXiv preprint arXiv:2104.13615.
